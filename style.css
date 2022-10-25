@@ -67,11 +67,11 @@ header a {
 /* ! ABOUT ME TEXT */
 #showcase {
     min-height: 200px;
-    background-image: url("");
-    background-position: center;
+    /* background-image: url("Images/sunsetClouds.png"); */
+    background-position: top;
     background-size: cover;
+    /* filter:brightness(20%); */
     text-align: left;
-    color: #2d2b3e;
     border-bottom: 3px solid #960a08;
 }
 
@@ -79,10 +79,12 @@ header a {
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 20px;
+    color: #2d2b3e;
 }
 
 #showcase p {
     font-size: 18px;
+    color: #2d2b3e;
 }
 
 /* ! IMAGE BAR */
