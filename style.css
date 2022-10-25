@@ -26,7 +26,6 @@ ul {
 header {
     background-color: #3f97abbe;
     color:#960a08;
-    /* Setting min-height so the height for the header section can expand if needed */
     min-height: 60px;
     border-bottom: 3px solid #960a08;
     padding: 5px 0;
@@ -127,6 +126,13 @@ img {
     width: 30%;
     text-align: center;
     padding: 10px;
+}
+
+#projects a {
+    color: #960a08;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 #projects > h2 {
